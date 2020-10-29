@@ -6,16 +6,16 @@ written for CS431 (Programming language concepts) at [UWM](https://uwm.edu/)
 ### Usage
 
 ```sml
-   val _ =
-     use "test_harness.sml";
+val _ =
+ use "test_harness.sml";
 
-   (* <Your code / defined functions> *)
+(* <Your code / defined functions> *)
 
-   val _ =
-     test_harness.run_tests [
-       Test("<Test Name>", (fn () => <Test that returns true if passed>)),
-       (* ...*)
-   ];
+val _ =
+ test_harness.run_tests [
+   Test("<Test Name>", (fn () => <Test that returns true if passed>)),
+   (* ...*)
+];
 ```
 
 ### Example Output
