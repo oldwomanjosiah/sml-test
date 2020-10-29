@@ -13,7 +13,7 @@ val _ =
 
 val _ =
  test_harness.run_tests [
-   Test("<Test Name>", (fn () => <Test that returns true if passed>)),
+   Test("<Test Name>", (fn () => (* <Test that returns true if passed> *))),
    (* ...*)
 ];
 ```
